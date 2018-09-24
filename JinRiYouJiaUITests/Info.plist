@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>App需要您的同意,才能访问媒体资料库</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>App需要您的同意,才能访问蓝牙</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>App需要您的同意,才能访问日历</string>
+    <key>NSCameraUsageDescription</key>
+    <string>分享照片视频到圈子，需要访问相机权限，若不允许，您将无法分享相机从相机拍摄的图片视频</string>
+    <key>NSContactsUsageDescription</key>
+    <string>App需要您的同意,才能访问提醒事项</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>App需要您的同意,才能访问健康分享</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>App需要您的同意,才能访问健康更新 </string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>App需要您的同意,才能始终访问位置</string>
+    <key>NSLocationUsageDescription</key>
+    <string>App需要您的同意,才能访问位置</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>App需要您的同意,才能在使用期间访问位置</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>App需要您的同意,才能访问麦克风</string>
+    <key>NSMotionUsageDescription</key>
+    <string>App需要您的同意,才能访问运动与健身</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>分享照片视频到圈子，需要访问相册权限，若不允许，您将无法分享相册的图片视频</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>分享照片视频到圈子，需要访问相册权限，若不允许，您将无法分享相册的图片视频</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>App需要您的同意,才能访问提醒事项</string>
+</dict>
+</plist>
